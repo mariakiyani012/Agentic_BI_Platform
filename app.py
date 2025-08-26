@@ -67,7 +67,7 @@ class AgenticBIApp:
     def _render_header(self):
         """Render application header"""
         
-        col1, col2, col3 = st.columns([2, 3, 1])
+        col1, col2, col3 = st.columns([4, 3, 1])
         
         with col1:
             st.title("📊 Agentic BI Platform")
