@@ -13,7 +13,7 @@ class FileUploaderComponent:
         """Render file uploader interface"""
         
         st.markdown("### 📁 Upload Your Data")
-        st.markdown("Upload a CSV or Excel file to begin your AI-powered analysis")
+        # st.markdown("Upload a CSV or Excel file to begin your AI-powered analysis")
         
         # File uploader
         uploaded_file = st.file_uploader(
