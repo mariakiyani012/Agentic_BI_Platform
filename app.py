@@ -241,29 +241,38 @@ class AgenticBIApp:
         """Render demo/example section"""
         
         st.markdown("---")
-        
-        col1, col2 = st.columns([2, 1])
-        
-        with col1:
-            st.markdown("### 🎯 What This Platform Does")
-            st.markdown("""
-            This AI-powered platform automatically analyzes your business data and provides:
+
+        st.markdown("### Features Overview")
+        st.markdown("""
             
-            - **🧹 Intelligent Data Cleaning**: AI-powered data quality improvements
-            - **🔍 Pattern Detection**: Statistical analysis and correlation discovery
-            - **📊 Smart Visualizations**: AI-recommended charts and graphs
-            - **💡 Business Insights**: Actionable recommendations based on your data
-            - **📈 Trend Analysis**: Time-series and forecasting capabilities
-            """)
+        - **Intelligent Data Cleaning**: AI-powered data quality improvements
+        - **Pattern Detection**: Statistical analysis and correlation discovery
+        - **Smart Visualizations**: AI-recommended charts and graphs
+        - **Business Insights**: Actionable recommendations based on your data
+        - **Trend Analysis**: Time-series and forecasting capabilities
+        """)
         
-        with col2:
-            st.markdown("### 📋 Supported Formats")
-            st.markdown("""
-            - **CSV** files (.csv)
-            - **Excel** files (.xlsx, .xls)
-            - Up to **200MB** file size
-            - Any business dataset
-            """)
+        # col1, col2 = st.columns([2, 1])
+        
+        # with col1:
+        #     st.markdown("### Features Overview")
+        #     st.markdown("""
+            
+        #     - **Intelligent Data Cleaning**: AI-powered data quality improvements
+        #     - **Pattern Detection**: Statistical analysis and correlation discovery
+        #     - **Smart Visualizations**: AI-recommended charts and graphs
+        #     - **Business Insights**: Actionable recommendations based on your data
+        #     - **Trend Analysis**: Time-series and forecasting capabilities
+        #     """)
+        
+        # with col2:
+        #     st.markdown("### 📋 Supported Formats")
+        #     st.markdown("""
+        #     - **CSV** files (.csv)
+        #     - **Excel** files (.xlsx, .xls)
+        #     - Up to **200MB** file size
+        #     - Any business dataset
+        #     """)
         
         # Example datasets info
         with st.expander("📊 Try with Sample Data"):

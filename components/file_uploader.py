@@ -100,7 +100,7 @@ class FileUploaderComponent:
     def _render_example_data_option(self):
         """Render option to use example data"""
         st.markdown("---")
-        st.markdown("### Try with Example Data")
+        st.markdown("### Try Sample Data")
         
         col1, col2 = st.columns([5, 1])
         with col1:
