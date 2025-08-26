@@ -12,7 +12,7 @@ class FileUploaderComponent:
     def render(self) -> Optional[Any]:
         """Render file uploader interface"""
         
-        st.markdown("### 📁 Upload Your Data")
+        st.markdown("### Upload Data")
         # st.markdown("Upload a CSV or Excel file to begin your AI-powered analysis")
         
         # File uploader
