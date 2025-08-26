@@ -76,7 +76,7 @@ class AgenticBIApp:
             st.markdown("### AI-Powered Business Intelligence & Data Analysis")
         
         with col3:
-            if st.button("🔄 Reset", help="Start a new analysis"):
+            if st.button("Reset", help="Start a new analysis"):
                 self._reset_application()
     
     def _check_configuration(self) -> bool:
