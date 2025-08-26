@@ -104,7 +104,7 @@ class FileUploaderComponent:
         
         col1, col2 = st.columns([3, 1])
         with col1:
-            st.markdown("Don't have data ready? Use our sample dataset to explore the platform.")
+            st.markdown("Use sample dataset to explore the platform.")
         with col2:
             if st.button("Load Example", type="secondary"):
                 return self._create_example_data()
